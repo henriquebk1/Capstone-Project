@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/marker" android:id="@+id/menu_add_marker"/>
+    <item android:title="@string/circle" android:id="@+id/menu_add_circle"/>
+    <item android:title="@string/polygon" android:id="@+id/menu_add_polygon"/>
+    <item android:title="@string/polyline" android:id="@+id/menu_add_polyline"/>
+</menu>

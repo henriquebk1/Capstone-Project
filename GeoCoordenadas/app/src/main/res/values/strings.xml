@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Geo Coordinates</string>
+    <string name="google_api_key" translatable="false"></string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="elevation">Elevation:</string>
+    <string name="accuracy">Accurancy:</string>
+    <string name="speed">Speed:</string>
+    <string name="bearing">Bearing:</string>
+    <string name="north_symbol">N</string>
+    <string name="south_symbol">S</string>
+    <string name="east_symbol">E</string>
+    <string name="west_symbol">W</string>
+    <string name="save">Save</string>
+    <string name="save_new">Save new geo location:</string>
+    <string name="location_name">Location name</string>
+    <string name="cancel">Cancel</string>
+    <string name="precison">Precison: </string>
+    <string name="calibrate">Calibrate</string>
+    <string name="unreliable">Unreliable</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="coord_format">Coordinates Format:</string>
+    <string name="DMS_format">DMS (32° 18\' 23.1\" N)</string>
+    <string name="decimal_format">Decimal (+32.30642)</string>
+    <string name="system_of_measurement">System of Measurement:</string>
+    <string name="metric">metric</string>
+    <string name="imperial">imperial</string>
+    <string name="system_of_measurement_key" translatable="false">sm</string>
+    <string name="max_error">Maximum error: %1$s</string>
+    <string name="distance">Distance</string>
+    <string name="gps_disabled">The gps is disabled, the app will work with basic functionality.</string>
+    <string name="cant_save">Can\'t save this location</string>
+    <string name="current_location">Current location</string>
+    <string name="empty_text">-</string>
+    <string name="coordinates_format_key" translatable="false">cf</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+    <string name="create_new_location">Create New Location</string>
+    <string name="delete_message">Are you sure to delete \"%1$s\" location?</string>
+    <string name="yes_delete">Yes, delete</string>
+    <string name="edit_title">Edit</string>
+    <string name="snapshot">Snapshot</string>
+    <string name="circle">Circle</string>
+    <string name="polygon">Polygon</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="marker">Marker</string>
+    <string name="polyline">Polyline</string>
+    <string name="place_circle_center">Place circle center</string>
+    <string name="place_circle_end">Place circle end</string>
+    <string name="clear_map">Clear the map</string>
+    <string name="remove_from_map">Remove any item</string>
+    <string name="place_polygon_start">Place polygon start point</string>
+    <string name="place_polygon_second">Place polygon second point</string>
+    <string name="place_polygon_end">Place other polygon point. \n Click confirm to finish.</string>
+    <string name="place_polyline_start">Place polyline start point</string>
+    <string name="place_polyline_end">Place other polyline point. \n Click confirm to finish.</string>
+    <string name="place_on_map">Place on map</string>
+    <string name="place_marker_hint">Click where you will place the marker</string>
+    <string name="geo_location">Geo location</string>
+    <string name="removing_from_map_hint">Click on a object to remove it from map</string>
+    <string name="calibrate_hint">Avoid magnetic objects that around your device. Wave your device several times in a figure of 8 motion correctly, as show below, and rotate you device along the 3-axis.</string>
+    <string name="ok">OK</string>
+</resources>

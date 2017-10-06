@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/current_location" android:id="@+id/menu_location_current"/>
+    <item android:title="@string/geo_location" android:id="@+id/menu_location_geo_location"/>
+</menu>

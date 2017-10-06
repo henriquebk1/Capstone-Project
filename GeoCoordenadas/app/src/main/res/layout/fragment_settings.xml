@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.henriquebecker.geocoordenadas.SettingsFragment"
+    android:layout_margin="@dimen/big_page_margin">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/coord_format"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="@dimen/default_small_padding"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/radio_DMS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_small_padding"
+            android:text="@string/DMS_format" />
+        <RadioButton android:id="@+id/radio_decimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/decimal_format"
+            android:padding="@dimen/default_small_padding"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/radioGroup"
+        android:text="@string/system_of_measurement"
+        android:layout_marginTop="@dimen/default_page_margin"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioGroup"
+        android:layout_alignStart="@+id/radioGroup"
+        android:layout_below="@+id/textView4"
+        android:layout_margin="@dimen/default_small_padding" >
+
+        <RadioButton
+            android:id="@+id/radioMetric"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/metric"
+            android:padding="@dimen/default_small_padding"/>
+
+        <RadioButton
+            android:id="@+id/radioImperial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/imperial"
+            android:padding="@dimen/default_small_padding" />
+    </RadioGroup>
+</RelativeLayout>

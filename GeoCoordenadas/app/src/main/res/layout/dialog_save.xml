@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/big_page_margin"
+        android:text="@string/save_new"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Title"
+        android:textSize="@dimen/title_size" />
+
+    <EditText
+        android:id="@+id/dialog_save_name"
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_margin="@dimen/default_small_padding"
+        android:hint="@string/location_name"
+        android:inputType="textAutoComplete"
+        android:padding="@dimen/default_small_padding" />
+
+</LinearLayout>

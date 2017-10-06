@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/clear_map" android:id="@+id/menu_config_clear"/>
+    <item android:title="@string/remove_from_map" android:id="@+id/menu_config_remove_item"/>
+</menu>
